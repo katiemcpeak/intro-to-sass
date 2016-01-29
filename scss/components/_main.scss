@@ -1,0 +1,29 @@
+html{
+    font-family: $helvetica;
+}
+
+h1 {
+    font-family: $yanone-kaffeesatz;  
+}
+
+.border{
+    border: 1px solid $purple;
+    p{
+        color: $blue;
+    }
+    @media only screen and (min-width: 30em){
+        border-color: $blue;
+    }
+}
+
+.primary-btn{
+    @include button($blue);
+}
+
+.secondary-btn{
+    @include button($purple);
+}
+
+ul{
+    @extend .border;
+}

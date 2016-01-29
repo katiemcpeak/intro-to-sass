@@ -1,0 +1,14 @@
+//colors
+
+$purple: #9F81F7;
+$blue: #5882FA;
+
+// You can use variables inside variables
+$primary: $purple;
+$secondary: $blue;
+
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+    
+// Font families
+$helvetica: Helvetica, Arial, sans-serif;
+$yanone-kaffeesatz: 'Yanone Kaffeesatz', sans-serif;
